@@ -1,2 +1,2 @@
 # finance-website
-Financial company website. Very basic HTML and CSS.
+NumberCrunch online accounting firm company website. Very basic HTML and CSS.
