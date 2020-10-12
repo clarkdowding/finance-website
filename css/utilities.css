@@ -5,6 +5,7 @@
 }
 
 .text-secondary {
+    /* TODO Replace colors with global variables */
     color: #0284d0;
     /* color: #C70039; */
 }
@@ -86,7 +87,7 @@
 .flex-columns img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover; /* avoid image stretching */
 }
 
 .flex-columns .column-2 {
@@ -94,6 +95,10 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    /* padding: 30px; */
+}
+
+.flex-columns .column-padded {
     padding: 30px;
 }
 
